@@ -58,4 +58,12 @@ Follow these steps to get your bot up and running.
 cd telegram-food-bot
 ```
 
+```bash
+   docker build -t telegram-food-bot .
+```
+
+```bash
+  docker run -d --name my-food-bot telegram-food-bot
+```
+
 
